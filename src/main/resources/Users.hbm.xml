@@ -10,6 +10,9 @@
         <id name="id" column="ID">
             <generator class="native" />
         </id>
+        <property name="text">
+            <column name="text" length="50" not-null="true" />
+        </property>
  
         <property name="username">
             <column name="username" length="16" not-null="true" />
