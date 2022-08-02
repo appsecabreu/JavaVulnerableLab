@@ -1,4 +1,4 @@
-FROM tomcat
+FROM tomcat:10.1.0-jdk11-openjdk-slim-bullseye
 
 COPY . .
 
